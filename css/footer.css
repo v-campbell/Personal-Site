@@ -18,7 +18,7 @@
   list-style: none;
   width: 60px;
   height: 60px;
-  margin: 0px 20px;
+  margin: 0px 60px;
 }
 .footer-ul .footer-li:before{
   content: '';
@@ -27,7 +27,7 @@
   left: -5px;
   width: 100%;
   height: 10px;
-  background: #2a2a2a;
+  background: rgb(235, 232, 231);
   transform-origin: top;
   transform: skewX(-41deg);
 }
@@ -38,7 +38,7 @@
   left: -9px;
   width: 9px;
   height: 100%;
-  background: #2a2a2a;
+  background: rgb(235, 232, 231);
   transform-origin: right;
   transform: skewY(-49deg);
 }
@@ -49,7 +49,7 @@
   width: 100%;
   height: 100%;
   display: flex !important;
-  background: #2a2a2a;
+  background: rgb(224, 220, 219);
   justify-content: center;
   align-items: center;
   color: #fff;

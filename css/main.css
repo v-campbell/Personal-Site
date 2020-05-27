@@ -368,8 +368,8 @@ ul li {
     background-size: cover;
 }
 .services h4 {
-	font-size: 33px;
-	line-height: 33px;
+	font-size: 43px;
+    line-height: 51px;
 	letter-spacing: 2px;
 	font-weight: 300;
 }
@@ -381,7 +381,7 @@ ul li {
 }
 .services p {
 	color: #6c7279;
-	font-size: 13px;
+	font-size: 17px;
 	font-weight: 400;
 	margin-top: 7%;
 
