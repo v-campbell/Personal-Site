@@ -62,7 +62,7 @@ h5 {
 	 General Style
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #aea194;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -70,6 +70,7 @@ a:hover, a:focus {
 	-o-transition: background-color, color, 0.3s;
 	-webkit-transition: background-color, color, 0.3s;
 	transition: background-color, color, 0.3s;
+	color: #f7f1f1;
 }
 body {
 	font-family: "Open Sans", sans-serif;
@@ -102,6 +103,7 @@ ul li {
 	z-index: 999;
 	margin-left: 3%;
 	margin-right: 3%;
+	padding: 21px;
 }
 #header .header-content {
 	margin: 0 auto;
@@ -408,10 +410,19 @@ ul li {
 	width: 92%;
 	margin: auto;
 }
+#portfolio h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
 #portfolio .portfolio-item {
 	right: 0;
 	margin: 0 0 2px;
     padding: 16px;
+}
+#portfolio .portfolio-item:hover {
+	top: -8px;
 }
 #portfolio .portfolio-item .portfolio-link {
 	display: block;
