@@ -456,6 +456,11 @@ ul li {
 #portfolio * {
 	z-index: 2;
 }
+
+.no-link {
+	font-size: 14px;
+	color: rgb(164, 162, 162);
+}
 /* ------------------------------------------------------------------------------
 	 Testimonials
 -------------------------------------------------------------------------------*/
@@ -491,10 +496,10 @@ ul li {
 	 Footer
 -------------------------------------------------------------------------------*/
 .footer {
-	width: 94%;
+	width: 100%;
 	margin: auto;
-	text-align: left;
-	padding-top: 5%;
+	text-align: center;
+	padding-top: 10%;
 	padding-bottom: 7%;
 }
 .footer h4 {
