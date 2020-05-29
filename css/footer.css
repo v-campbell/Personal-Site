@@ -93,7 +93,7 @@
   background: #003366 !important;
 }
 .footer-ul .footer-li:nth-child(2):hover span{
-  background: #639c83 !important;
+  background: rgb(82,223,196) !important;
 }
 .footer-ul .footer-li:nth-child(3):hover span{
   background: #06e798 !important;
