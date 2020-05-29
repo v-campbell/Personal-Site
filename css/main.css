@@ -5,7 +5,7 @@
 ------------------------------------------------------------------------------*/
 
 
-
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap);
 @import url(http://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700);
 /* ------------------------------------------------------------------------------
 	 Typography
@@ -62,7 +62,7 @@ h5 {
 	 General Style
 -------------------------------------------------------------------------------*/
 a {
-	color: #aea194;
+	color: #83b6aa;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -115,11 +115,12 @@ ul li {
 	transition: padding 0.3s;
 }
 #header .logo {
-	font-size: 21px;
+	font-size: 25px;
 	color: #000;
 	font-weight: 700;
 	float: left;
 	text-transform: uppercase;
+	font-family: "Open Sans", sans-serif;
 }
 #header.fixed {
 	background-color: #fff;
@@ -340,6 +341,7 @@ ul li {
 }
 .carousel-caption p {
 	font-family: "Open Sans", sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	color: #6c7279;
 	text-shadow: none;
 	font-size: 13px;
@@ -393,15 +395,19 @@ ul li {
 }
 
 .services p {
-	color: white;
+	font-family: 'Roboto Mono', monospace;
+	color: rgb(48, 48, 48);
 	font-size: 17px;
-	font-weight: 400;
-	word-spacing: 1px;
+	font-weight: 300;
+	/* word-spacing: 1px; */
+	line-height: 30px;
     margin-top: 4%;
-    background-color: lightgray;
+    /*
     background-color: rgba(71, 174, 247, 0.856);
+	color: white;
     padding: 25px;
-    border-radius: 1rem;
+	border-radius: 1rem; 
+	*/
 }
 
 .services-content {
@@ -427,6 +433,13 @@ ul li {
 	font-weight: 700;
 	margin-bottom: 15px;
 	font-weight: 100;
+
+	font-family: "Open Sans", sans-serif;
+	font-family: 'Roboto Mono', monospace;
+	text-shadow: none;
+	font-size: 23px;
+	font-weight: 400;
+	letter-spacing: 2px;
 }
 #portfolio .portfolio-item {
 	right: 0;
@@ -469,7 +482,7 @@ ul li {
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
 	margin: 0;
-	color: #e9eaed;
+	color: #83b6aa;
 	font-size: 17px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
