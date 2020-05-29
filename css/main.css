@@ -380,7 +380,7 @@ ul li {
 	letter-spacing: 2px;
 	font-weight: 300;
 	background-color: whitesmoke;
-	background-color: rgb(229, 229, 234);
+	background-color: rgba(229, 229, 234, 0.89);
 	border-radius: 1rem;
 	padding: 21px;
 	margin-bottom: 48px;
@@ -391,18 +391,19 @@ ul li {
 	margin-bottom: 10%;
 	text-transform: none;
 }
+
 .services p {
 	color: white;
-	/* color: black; */
 	font-size: 17px;
 	font-weight: 400;
 	word-spacing: 1px;
     margin-top: 4%;
     background-color: lightgray;
-    background-color: rgb(71, 175, 247);
+    background-color: rgba(71, 174, 247, 0.856);
     padding: 25px;
     border-radius: 1rem;
 }
+
 .services-content {
 	margin: 50px;
 }
