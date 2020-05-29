@@ -302,6 +302,7 @@ ul li {
 	width: 94%;
 	height: 500px;
 	margin: auto;
+	padding-top: 80px;
 }
 .item, .active, .carousel-inner {
 	height: 100%;
@@ -396,7 +397,7 @@ ul li {
 }
 
 .services p {
-	/* font-family: 'Roboto Mono', monospace; */
+	font-family: 'Roboto Mono', monospace;
 	color: rgb(48, 48, 48);
 	font-size: 17px;
 	font-weight: 300;
