@@ -379,6 +379,11 @@ ul li {
     line-height: 51px;
 	letter-spacing: 2px;
 	font-weight: 300;
+	background-color: whitesmoke;
+	background-color: rgb(229, 229, 234);
+	border-radius: 1rem;
+	padding: 21px;
+	margin-bottom: 48px;
 }
 .services h5 {
 	font-size: 21px;
@@ -387,11 +392,16 @@ ul li {
 	text-transform: none;
 }
 .services p {
-	color: #6c7279;
+	color: white;
+	/* color: black; */
 	font-size: 17px;
 	font-weight: 400;
-	margin-top: 7%;
-
+	word-spacing: 1px;
+    margin-top: 4%;
+    background-color: lightgray;
+    background-color: rgb(71, 175, 247);
+    padding: 25px;
+    border-radius: 1rem;
 }
 .services-content {
 	margin: 50px;
@@ -415,6 +425,7 @@ ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	margin-bottom: 15px;
+	font-weight: 100;
 }
 #portfolio .portfolio-item {
 	right: 0;

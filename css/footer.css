@@ -82,14 +82,14 @@
   opacity: .2;
 }
 .footer-ul .footer-li:nth-child(1):hover span{
-  background: rgb(17, 120, 179) !important;
+  background: #003366 !important;
 }
 .footer-ul .footer-li:nth-child(2):hover span{
-  background: rgb(236, 184, 143) !important;
+  background: #3399ff !important;
 }
 .footer-ul .footer-li:nth-child(3):hover span{
-  background: rgb(101, 123, 128) !important;
+  background: #ffcc99 !important;
 }
 .footer-ul .footer-li:nth-child(4):hover span{
-  background: rgb(241, 223, 214) !important;
+  background: #ff9966 !important;
 }
