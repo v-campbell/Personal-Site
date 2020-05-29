@@ -62,7 +62,8 @@ h5 {
 	 General Style
 -------------------------------------------------------------------------------*/
 a {
-	color: #83b6aa;
+	color: rgb(223, 191, 157);
+;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -308,15 +309,17 @@ ul li {
 
 .item1 {
 	/* background-color: rgb(242, 234, 223); */
-	background-color: rgb(237, 235, 232);
+	background-color:rgb(245,239,224)
+
+;
 }
 
 .item2 {
-	background-color: rgb(223, 220, 219);
+	background-color:rgb(230, 210, 189);
 }
 
 .item3 {
-	background-color: rgb(210, 207,209);
+	background-color: rgb(223, 191, 157);
 }
 
 .carousel-caption {
@@ -369,8 +372,8 @@ ul li {
 .services {
 	width: 94%;
 	margin: auto;
-	/* background-image: url('https://static1.squarespace.com/static/556e5c61e4b0a09f9d23f7da/t/5baab06e085229346f51362b/1537912951040/091818-2.jpg'); */
-	background-image: url('https://static1.squarespace.com/static/556e5c61e4b0a09f9d23f7da/t/5b85bcb7aa4a9905ff8e9061/1535491260704/august1.jpg');
+	/* background-image: url('https://static1.squarespace.com/static/556e5c61e4b0a09f9d23f7da/t/5b85bcb7aa4a9905ff8e9061/1535491260704/august1.jpg'); */
+	background-image: url('https://cdn.shopify.com/s/files/1/0337/7469/products/abstract-earth-tone-shapes-4-mural-wallpaper_1800x1800.jpg?v=1583589143');
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -381,9 +384,9 @@ ul li {
     line-height: 51px;
 	letter-spacing: 2px;
 	font-weight: 300;
-	background-color: whitesmoke;
+	/* background-color: whitesmoke;
 	background-color: rgba(229, 229, 234, 0.89);
-	border-radius: 1rem;
+	border-radius: 1rem; */
 	padding: 21px;
 	margin-bottom: 48px;
 }
@@ -395,7 +398,7 @@ ul li {
 }
 
 .services p {
-	font-family: 'Roboto Mono', monospace;
+	/* font-family: 'Roboto Mono', monospace; */
 	color: rgb(48, 48, 48);
 	font-size: 17px;
 	font-weight: 300;
@@ -441,6 +444,29 @@ ul li {
 	font-weight: 400;
 	letter-spacing: 2px;
 }
+
+.underline {
+  line-height: 1.2;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+.underline:before {
+    content: '';
+    display: inline-block;
+    height: calc(0.5em + 2px);
+    width: 15px;
+    top: calc(0.75em - 2px);
+    left: calc(-0.5em);
+    position: absolute;
+    background-color: #FFF0A3;
+    z-index: -1;
+    transition: 0.5s width cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.underline:hover:before {
+	width: 90px;
+}
+	
 #portfolio .portfolio-item {
 	right: 0;
 	margin: 0 0 2px;
@@ -482,7 +508,8 @@ ul li {
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3 {
 	margin: 0;
-	color: #83b6aa;
+	color:rgb(223, 191, 157)
+;
 	font-size: 17px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
