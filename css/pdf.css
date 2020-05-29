@@ -6,8 +6,8 @@
 
 .open-button a {
     /* background: rgb(233, 157, 121); */
-    color: rgb(24, 23, 23);
-    border: 1px solid rgb(24, 23, 23);
+    color: rgb(73, 224, 196);
+    border-bottom: 1px solid rgb(73, 224, 196);
     display: block;
     font-size: 17px;
     font-weight: 700;
@@ -32,8 +32,8 @@
 }
 
 .open-button a:hover {
-    color: #fff;
-    border: 1px solid #fff;
+    color: rgb(171, 167, 167);
+    border-bottom: 5px solid rgb(201, 196, 196);
 
 }
 

@@ -10,6 +10,10 @@
 /* ------------------------------------------------------------------------------
 	 Typography
 -------------------------------------------------------------------------------*/
+body {
+	/* background-color: rgb(24, 36, 50); */
+}
+
 p {
 	font-size: 14px;
 	line-height: 22.4px;
@@ -310,20 +314,20 @@ ul li {
 
 .item1 {
 	/* background-color: rgb(242, 234, 223); */
-	background-color:rgb(230, 210, 189);
+	background-color:#2B3E42;
 }
 
 .item2 {
-	background-color:rgb(245,239,224);
+	background-color:rgb(21, 22, 22);
 }
 
 .item3 {
-	background-color: rgb(223, 191, 157);
+	background-color: rgb(54, 70, 88);
 }
 
 .carousel-caption {
 	bottom: 40%;
-	color: #fff;
+	color: rgb(255, 255, 255);
 	left: 15%;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -334,7 +338,7 @@ ul li {
 }
 .carousel-caption h3 {
 	font-family: "Open Sans", sans-serif;
-	color: #2d3033;
+	color: #e8e9eb;
 	text-shadow: none;
 	font-size: 31px;
 	font-weight: 700;
@@ -344,7 +348,7 @@ ul li {
 .carousel-caption p {
 	font-family: "Open Sans", sans-serif;
 	font-family: 'Roboto Mono', monospace;
-	color: #6c7279;
+	color: #b6b6b6;
 	text-shadow: none;
 	font-size: 13px;
 	font-weight: 400;
@@ -372,7 +376,8 @@ ul li {
 	width: 94%;
 	margin: auto;
 	/* background-image: url('https://static1.squarespace.com/static/556e5c61e4b0a09f9d23f7da/t/5b85bcb7aa4a9905ff8e9061/1535491260704/august1.jpg'); */
-	background-image: url('https://cdn.shopify.com/s/files/1/0337/7469/products/abstract-earth-tone-shapes-4-mural-wallpaper_1800x1800.jpg?v=1583589143');
+	/* background-image: url('https://cdn.shopify.com/s/files/1/0337/7469/products/abstract-earth-tone-shapes-4-mural-wallpaper_1800x1800.jpg?v=1583589143'); */
+	background-image: url('https://img4.goodfon.com/wallpaper/nbig/a/1d/nebo-zvezdy-luna-oblaka-noch-art-risunok-minimalizm.jpg');
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -388,6 +393,7 @@ ul li {
 	border-radius: 1rem; */
 	padding-top: 64px;
 	margin-bottom: 48px;
+	color: white;
 }
 .services h5 {
 	font-size: 21px;
@@ -398,7 +404,7 @@ ul li {
 
 .services p {
 	font-family: 'Roboto Mono', monospace;
-	color: rgb(48, 48, 48);
+	color: rgb(219, 214, 214);
 	font-size: 17px;
 	font-weight: 300;
 	/* word-spacing: 1px; */
@@ -429,7 +435,7 @@ ul li {
 	width: 94%;
 	margin: auto;
 }
-#portfolio h2{
+#portfolio h2, .footer-body > div{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -442,6 +448,7 @@ ul li {
 	font-size: 23px;
 	font-weight: 400;
 	letter-spacing: 2px;
+	color: rgb(44, 43, 43);
 }	
 #portfolio .portfolio-item {
 	right: 0;
