@@ -18,7 +18,7 @@
   list-style: none;
   width: 60px;
   height: 60px;
-  margin: 0px 60px;
+  margin: 0px 35px 35px 0px;
 }
 .footer-ul .footer-li:before{
   content: '';
