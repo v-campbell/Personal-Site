@@ -86,7 +86,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 24px 0;
 }
 .no-padding {
 	padding: 0;
@@ -309,13 +309,11 @@ ul li {
 
 .item1 {
 	/* background-color: rgb(242, 234, 223); */
-	background-color:rgb(245,239,224)
-
-;
+	background-color:rgb(230, 210, 189);
 }
 
 .item2 {
-	background-color:rgb(230, 210, 189);
+	background-color:rgb(245,239,224);
 }
 
 .item3 {
@@ -387,7 +385,7 @@ ul li {
 	/* background-color: whitesmoke;
 	background-color: rgba(229, 229, 234, 0.89);
 	border-radius: 1rem; */
-	padding: 21px;
+	padding-top: 64px;
 	margin-bottom: 48px;
 }
 .services h5 {
@@ -427,7 +425,7 @@ ul li {
 	 Portfolio
 -------------------------------------------------------------------------------*/
 #portfolio {
-	width: 92%;
+	width: 94%;
 	margin: auto;
 }
 #portfolio h2{
@@ -443,34 +441,12 @@ ul li {
 	font-size: 23px;
 	font-weight: 400;
 	letter-spacing: 2px;
-}
-
-.underline {
-  line-height: 1.2;
-  text-decoration: none;
-  color: inherit;
-  position: relative;
-}
-.underline:before {
-    content: '';
-    display: inline-block;
-    height: calc(0.5em + 2px);
-    width: 15px;
-    top: calc(0.75em - 2px);
-    left: calc(-0.5em);
-    position: absolute;
-    background-color: #FFF0A3;
-    z-index: -1;
-    transition: 0.5s width cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-.underline:hover:before {
-	width: 90px;
-}
-	
+}	
 #portfolio .portfolio-item {
 	right: 0;
-	margin: 0 0 2px;
+    margin: 26px 29px;
     padding: 16px;
+    background-color: rgb(228, 214, 187);
 }
 #portfolio .portfolio-item:hover {
 	top: -8px;
