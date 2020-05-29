@@ -21,11 +21,11 @@ p {
 }
 h1 {
 	font-size: 65px;
-	color: #2d3033;
+	color: #e4e7eb;
 }
 h2 {
 	font-size: 40px;
-	color: #2d3033;
+	color: #e6eaee;
 }
 h3 {
 	font-size: 28px;
@@ -434,6 +434,17 @@ ul li {
 #portfolio {
 	width: 94%;
 	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    background-image: url('https://spencer2124.files.wordpress.com/2014/06/background.png');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #portfolio h2, .footer-body > div{
 	text-align: center;
@@ -448,7 +459,7 @@ ul li {
 	font-size: 23px;
 	font-weight: 400;
 	letter-spacing: 2px;
-	color: rgb(44, 43, 43);
+	color: rgb(254, 254, 255);
 }	
 #portfolio .portfolio-item {
 	right: 0;
