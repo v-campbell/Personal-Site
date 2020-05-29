@@ -444,9 +444,9 @@ ul li {
 }	
 #portfolio .portfolio-item {
 	right: 0;
-    margin: 26px 29px;
+    /* margin: 26px 29px; */
     padding: 16px;
-    background-color: rgb(228, 214, 187);
+    /* background-color: rgb(228, 214, 187); */
 }
 #portfolio .portfolio-item:hover {
 	top: -8px;
