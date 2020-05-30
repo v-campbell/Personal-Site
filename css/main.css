@@ -394,6 +394,9 @@ ul li {
 	padding-top: 64px;
 	margin-bottom: 88px;
 	color: white;
+	padding-bottom: 20px;
+	border-bottom: 3px solid rgb(44,62,66);
+	border-bottom: 1px solid rgb(82, 223, 196);
 }
 .services h4 span {
 	color: rgb(82, 223, 196);
