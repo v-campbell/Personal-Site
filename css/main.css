@@ -433,8 +433,9 @@ ul li {
 
 .services-img {
 	/* position: absolute; */
-	padding-top: 455px;
+	padding-top: 100px;
 	padding-right: 20px;
+	border-radius: 1rem;
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
