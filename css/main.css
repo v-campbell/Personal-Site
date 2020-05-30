@@ -379,7 +379,9 @@ ul li {
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
+	display: flex;
+	/* flex-direction: column; */
 }
 .services h4 {
 	font-size: 42px;
@@ -435,7 +437,14 @@ ul li {
 	/* position: absolute; */
 	padding-top: 100px;
 	padding-right: 20px;
-	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.services-img img {
+	width: 700px;
+	/* border-radius: 1rem; */
 }
 /* ------------------------------------------------------------------------------
 	 Portfolio
