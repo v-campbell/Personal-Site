@@ -104,11 +104,11 @@ ul li {
 -------------------------------------------------------------------------------*/
 #header {
 	position: fixed;
-	width: 94%;
+	width: 100%;
 	z-index: 999;
-	margin-left: 3%;
-	margin-right: 3%;
-	padding: 0px 21px;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding: 0px 54px;
 }
 #header .header-content {
 	margin: 0 auto;
@@ -301,7 +301,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .carousel {
-	width: 94%;
+	width: 100%;
 	height: 500px;
 	margin: auto;
 	padding-top: 80px;
@@ -371,7 +371,7 @@ ul li {
 	/* border: 3px solid blue; */
 }
 .services {
-	width: 94%;
+	width: 100%;
 	margin: auto;
 	/* background-image: url('https://static1.squarespace.com/static/556e5c61e4b0a09f9d23f7da/t/5b85bcb7aa4a9905ff8e9061/1535491260704/august1.jpg'); */
 	/* background-image: url('https://cdn.shopify.com/s/files/1/0337/7469/products/abstract-earth-tone-shapes-4-mural-wallpaper_1800x1800.jpg?v=1583589143'); */
@@ -453,7 +453,7 @@ ul li {
 	 Portfolio
 -------------------------------------------------------------------------------*/
 #portfolio {
-	width: 94%;
+	width: 100%;
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 10px;
@@ -632,7 +632,7 @@ ul li {
 	 Testimonials
 -------------------------------------------------------------------------------*/
 .testimonials {
-	width: 94%;
+	width: 100%;
 	margin: auto;
 	background-color: #333;
 	position: relative;
@@ -708,7 +708,7 @@ ul li {
 -------------------------------------------------------------------------------*/
 
 .work-detail {
-	width: 94%;
+	width: 100%;
 	margin: auto;
 }
 .work-detail-margin {
