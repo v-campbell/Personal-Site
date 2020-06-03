@@ -65,6 +65,13 @@ h5 {
 /* ------------------------------------------------------------------------------
 	 General Style
 -------------------------------------------------------------------------------*/
+#whole-body {
+	background-image: url('https://img4.goodfon.com/wallpaper/nbig/a/1d/nebo-zvezdy-luna-oblaka-noch-art-risunok-minimalizm.jpg');
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+}
 a {
 	color: rgb(82,223,196);
 ;
@@ -109,28 +116,34 @@ ul li {
 	margin-left: 0%;
 	margin-right: 0%;
 	padding: 0px 54px;
+	background-color: #fff;
 }
 #header .header-content {
 	margin: 0 auto;
 	/* padding: 40px 0; */
 	width: 100%;
-	-moz-transition: padding 0.5s;
+	/* -moz-transition: padding 0.5s;
 	-o-transition: padding 0.5s;
 	-webkit-transition: padding 0.5s;
-	transition: padding 0.5s;
-}
-#header .logo img {
-	height: 80px;
-}
-#header.fixed {
-	background-color: #fff;
-}
-#header.fixed .header-content {
+	transition: padding 0.5s; */
 	border-bottom: 0;
 	padding: 8px 25px 8px 25px;
 	display: flex;
     justify-content: space-between;
     align-items: center;
+}
+#header .logo img {
+	height: 80px;
+}
+/* #header.fixed {
+	background-color: #fff;
+} */
+#header.fixed .header-content {
+	/* border-bottom: 0;
+	padding: 8px 25px 8px 25px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center; */
 }
 #header.fixed .nav-toggle {
 	top: 18px;
@@ -375,12 +388,12 @@ ul li {
 	margin: auto;
 	/* background-image: url('https://static1.squarespace.com/static/556e5c61e4b0a09f9d23f7da/t/5b85bcb7aa4a9905ff8e9061/1535491260704/august1.jpg'); */
 	/* background-image: url('https://cdn.shopify.com/s/files/1/0337/7469/products/abstract-earth-tone-shapes-4-mural-wallpaper_1800x1800.jpg?v=1583589143'); */
-	background-image: url('https://img4.goodfon.com/wallpaper/nbig/a/1d/nebo-zvezdy-luna-oblaka-noch-art-risunok-minimalizm.jpg');
+	/* background-image: url('https://img4.goodfon.com/wallpaper/nbig/a/1d/nebo-zvezdy-luna-oblaka-noch-art-risunok-minimalizm.jpg');
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 	background-size: cover;
-	display: flex;
+	display: flex; */
 	/* flex-direction: column; */
 }
 .services h4 {
@@ -461,11 +474,11 @@ ul li {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    background-image: url('https://spencer2124.files.wordpress.com/2014/06/background.png');
+    /* background-image: url('https://spencer2124.files.wordpress.com/2014/06/background.png');
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 .footer-body > div{
 	text-align: center;
