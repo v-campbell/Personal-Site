@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#big {
+    width: 100%;
+    font-size: 8rem;
+    margin: auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
