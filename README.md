@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
@@ -71,7 +71,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
    ```sh
    npm run serve
-   ```
+   ``` -->
 
 ## 🎨 Color Reference
 
