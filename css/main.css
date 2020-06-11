@@ -398,6 +398,9 @@ ul li {
 	background-color: black;
 	color: white;
 	font-size: 5rem;
+	 display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #intro h4 {
@@ -803,6 +806,9 @@ ul li {
 }
 
 .neon {
+	display: flex;
+	justify-content: center;
+	height: 500px;
   background-color: #141114;
   background-image: linear-gradient(335deg, black 23px, transparent 23px),
     linear-gradient(155deg, black 23px, transparent 23px),
@@ -813,10 +819,10 @@ ul li {
 }
 
 .sign {
-  position: absolute;
-  display: flex;
+  /* position: absolute; */
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 50%;
   height: 50%;
   background-image: radial-gradient(
@@ -826,11 +832,13 @@ ul li {
   );
   transform: translate(-50%, -50%);
   letter-spacing: 2;
-  left: 50%;
-  top: 50%;
+  /* left: 50%;
+  top: 50%; */
+  /* padding-top: 3em;
+    padding-left: 6.5em; */
   font-family: "Clip";
   text-transform: uppercase;
-  font-size: 9em;
+  font-size: 3em;
   color: #e6e6ff;
   text-shadow: 0 0 0.6rem #e6e6ff, 0 0 1.5rem #65fff0,
     -0.2rem 0.1rem 1rem #65fff0, 0.2rem 0.1rem 1rem #65fff0,
