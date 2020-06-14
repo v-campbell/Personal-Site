@@ -1025,7 +1025,7 @@ display: inline-block;
 #hello {
 	height: 80rem;
 	background-color: white;
-	color: rgb(26, 25, 25);
+	color: rgb(33, 33, 34);
 	font-size: 13rem;
 	text-align: center;
 	display: flex;
